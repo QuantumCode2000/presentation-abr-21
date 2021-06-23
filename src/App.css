@@ -1,1 +1,53 @@
 
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+h2 {
+  font-size: 22px;
+}
+h1 {
+  font-size: 20px;
+}
+
+.container{
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  flex-direction: row;
+}
+
+.c{
+  width: 150px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+}
+.c1 {
+  background-color: red;
+  border-left: 4px ridge #1c6ea4;
+  border-radius: 40px 0px 0px 40px;
+}
+.c2 {
+  background-color: green;
+}
+.c3 {
+  background-color: yellow;
+}
+.c4 {
+  background-color: goldenrod;
+}
+.c5 {
+  background-color: blue;
+  border-right: 4px ridge #1c6ea4;
+  border-radius: 0px 40px 40px 0px;
+}
